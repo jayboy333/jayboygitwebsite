@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="sytle.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Jayboys Portfolio</title>
+
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo"
+        ><i class='bx bx-cube-alt' style='animation: spin 4s linear infinite;'></i>Jayucks</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">skills</a>
+        <a href="#testimonial">Hobies</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-img">
+        <img src="images/jayss.jpg" alt="Profile image" />
+      </div>
+
+      <div class="home-content">
+        <h3>Hello There, Im</h3>
+        <h1>Jayucks</h1>
+        <h3>Welcome to my <span class="multiple-text">Portfolio</span></h3>
+        <p>
+          Student by day, MLBB gamer by night! When I'm not coding or hitting the books, 
+          you'll find me swimming laps or exploring hidden trails. Thanks for stopping by!
+        </p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/jayboy.castillon" target="_blank"><i class="bx bxl-facebook"></i></a>
+          <a href="https://github.com/jayboy333" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://www.instagram.com/jerwen933" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.tiktok.com/@lo.ko....0" target="_blank"><i class="bx bxl-tiktok"></i></a>
+        </div>
+       
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>
+          A student with a passion for turning chaos into creativity. 
+          Whether leading team projects or grinding in MLBB, I thrive on 
+          learning and adapting. Let's build something awesome!
+        </p>
+      </div>
+      <div class="about-img">
+        <img src="images/jayboy2.jpg" alt="About image" />
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-crown"></i>
+          <h3>Leadership & Team Management</h3>
+          <p>
+            Turning group chaos into wins—no drama, just teamwork.
+          </p>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-brain"></i>
+          <h3>Emotional Intelligence (EQ)</h3>
+          <p>
+            Reading vibes, solving clashes, and building trust.
+          </p>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-time-five bx-spin" style="animation-duration: 12s;"></i>
+          <h3>Time Management & Productivity</h3>
+          <p>
+            Juggling studies, hobbies, and late-night gaming sessions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+      <div class="testimonial-box">
+        <h2 class="heading">Hobies</h2>
+        <div class="wrapper">
+          <div class="testimonial-item">
+            <img src="images/explore.jpg" alt="pick" />
+            <h2>Exploring</h2>
+            <div class="rating">
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bx-star" id="star"></i>
+            </div>
+            <p>
+               Adventure and experience is my best teacher.
+            </p>
+          </div>
+          <div class="testimonial-item">
+            <img src="images/bulan.jpg" alt="pick" />
+            <h2>Playing Mlbb</h2>
+            <div class="rating">
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star-half" id="star"></i>
+            </div>
+            <p>
+              MLBB = strategy, squad goals, and pure adrenaline.
+            </p>
+          </div>
+          <div class="testimonial-item">
+            <img src="images/Untitled Project (2).jpg" alt="pick" />
+            <h2>Swimming</h2>
+            <div class="rating">
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bx-star" id="star"></i>
+            </div>
+            <p>
+              Water is my reset button. Dive in and stress out!! basic.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="content">
+        <h2>Contact Me</h2>
+        <h3 class="show" id="show" style="display: none; color: #007f73; font-size: 2.3rem; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; background: #ffffff; padding: 10px 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+          <i class='bx bxs-check-circle'></i> Your message was sent successfully
+        </h3>
+      </div>
+      <div class="container">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon"><b></b><i class='bx bxs-map bx-tada' ></i></div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>Dr.Jose Riza Katipunan<br>Lower Mias<br>Purok 4</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><b></b><i class='bx bxs-phone'></i></div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p title="G-cash also uwo">Smart - 09096690477</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><b></b><i  class='bx bxs-envelope'></i></div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>castillonjayboy@gmail.com</p>
+            </div>
+
+          </div>
+        </div> 
+
+
+
+
+
+        <div class="contactForm" id="contactForm">
+          
+          <form action="send.php" method="POST" id="myForm">
+              <h2>Send Message</h2>
+      
+              <div class="inputBox">
+                  <input type="text" name="username" required>
+                  <span>Full Name</span>
+              </div>
+      
+              <div class="inputBox">
+                  <input type="email" name="email" required>
+                  <span>Email</span>
+              </div>
+      
+              <div class="inputBox">
+                  <textarea name="message" required></textarea>
+                  <span>Type your message...</span>
+              </div>
+      
+              <div class="inputBox">
+                  <input type="submit" name="submit" value="Submit">
+              </div>
+          </form>
+      </div>
+      
+    </section>
+
+   
+
+    <footer class="footer">
+      <div class="social">
+        <a href="https://www.facebook.com/jayboy.castillon" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.tiktok.com/@lo.ko....0" target="_blank"><i class="bx bxl-tiktok"></i></a>
+        <a href="https://www.instagram.com/jerwen933" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.instagram.com/jerwen933" target="_blank"><i class="bx bxl-github"></i></a>
+      </div>
+      <p class="copyright">&copy; Jayboy Castillon - All Rigts Reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+      document.getElementById('myForm').addEventListener('submit', function(e) {
+          e.preventDefault(); // Prevent the default form submission
+          
+          // Get form data
+          const formData = new FormData(this);
+          
+          // Send AJAX request
+          fetch(this.action, {
+              method: 'POST',
+              body: formData
+          })
+          .then(response => response.json())
+          .then(data => {
+              if (data.success) {
+                
+                  // Show the success message only if database operation was successful
+                  const successMessage = document.getElementById('show');
+                  successMessage.style.display = 'block';
+                  successMessage.textContent = data.message;
+                  
+                  // Hide the success message after 1.8 seconds
+                  setTimeout(() => {
+                      successMessage.style.display = 'none';
+                  }, 1800);
+                  
+                  // Optional: Reset the form
+                  this.reset();
+              } else {
+                  // Show error message
+                  alert(data.message);
+              }
+          })
+          .catch(error => {
+              console.error('Error:', error);
+              alert('An error occurred. Please try again.');
+          });
+      });
+      </script>
+
+   
+
+  </body>
+</html>
